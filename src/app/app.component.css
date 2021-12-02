@@ -1,0 +1,61 @@
+/* Base styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Other styles */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 40px;
+  
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   margin: 0 0 -20px -20px;
+
+
+}
+
+.item {
+    width: 300px;
+  margin: 0 0 20px 20px; 
+  margin-bottom: 20px;
+}
+
+
+
+.modal-image {
+display: block;
+margin: 0 auto;
+object-fit: cover;
+width: 100%;
+height: auto;
+}
+
+.form-control-lg {
+    resize: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;       
+        padding: 50px 20px;      
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1200;
+        padding: 50px 15px;
+      
+    }
+}
